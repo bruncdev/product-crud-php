@@ -10,4 +10,8 @@ class ProductController extends Controller
         $products = "Teste";
         return view('products.index', ['products' => $products]);
     }
+
+    public function create() {
+        return view('products.create');
+    }
 };

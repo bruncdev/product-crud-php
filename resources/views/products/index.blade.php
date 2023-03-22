@@ -4,7 +4,7 @@
         <section>
             <div class="titlebar">
                 <h1>Produtos</h1>
-                <button>Adicionar Produto</button>
+                <a href={{ route('products.create') }} class="btn-link">Adicionar Produto</a>
             </div>
             <div class="table">
                 <div class="table-filter">
