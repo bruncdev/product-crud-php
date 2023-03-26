@@ -77,10 +77,6 @@
                                         <i class="far fa-trash-alt"></i>
                                     </button>
                                 </form>
-                                <button class="btn btn-danger">
-                                    <i class="far fa-trash-alt"></i>
-                                </button>
-
                             </div>
                         @endforeach
                     @else
